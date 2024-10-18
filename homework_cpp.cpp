@@ -1,12 +1,7 @@
-#include iostream
-#include cmath
+ #include <iostream>
+#include <cmath>
 using namespace std;
 int main{
-cout<<"hi";
-
-
-
-
+	cout<<"hi!";
 	return 0;
-}
-
+}	
