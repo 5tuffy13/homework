@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    height:100%;
+    width:100%;
+    margin:0;
+    background-color: mediumaquamarine;
+
+}
+
+header{
+    background-color: lightgreen;
+    height:30%;
+    border-bottom: 5px grey dashed;
+}
+
+nav{
+    display:table;
+    width:100%;
+    height:20%;
+    border-spacing:2vh 5vh;
+    text-align:center;
+
+}
+.button{
+    padding:5px;
+    border:2px solid black;
+    background-color: white;
+    width:85px;
+    margin:3% 0 30% 30%;
+    text-align: center  ;
+}
+.header-text{
+    padding:5px;
+    width:400px;
+    margin:0 15%;
+    text-align: center  ;
+}
+a{
+    text-decoration: none;
+    text-align:center;
+    color:black;
+    display: table-cell;
+    height:10px;
+
+}
+p{
+    text-align:center;
+}
+
+main{
+    height:55%;
+    width:100%;
+    display:table;
+}
+.main-table-left,.main-table-right{
+    display:table-cell;
+    width:50%;
+
+
+}
+
+.table-left,.table-right{
+    display: table;
+    width:100%;
+
+}
+
+.cells{
+    display:table-cell;
+    width:50%;
+}
+
+.pic,.txt{
+    height:150px;
+    width:150px;
+    margin:10px;
+    text-align:center;
+    padding:65px 0;
+    line-height:20px;
+
+}
+
+.pic{
+    border:2px solid black;
+    background-color: lightgreen;
+}
+
+.track{
+    line-height:30px;
+    background-color: lightgreen;
+    margin:15px auto;
+    width:60%;
+}
+
+h3{
+    padding:5px;
+    margin:10px;
+    text-align:center;
+}
+.table-right-cell .pic{
+    margin:auto;
+}
+
+.playlist-table{
+    display:table;
+    width:50%;
+    margin:0 auto;
+    border-spacing:30px;
+}
+
+.playlist-table > .pic{
+    display:table-cell;
+}
+
+footer{
+    display:table;
+    width:100%;
+    color:whitesmoke;
+    background-color: #1C1C1C;
+    border:4px solid black;
+    height:15%;
+}
+
+.txt-block{
+    display:table-cell;
+    padding:30px;
+    line-height:25px;
