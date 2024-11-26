@@ -1,1 +1,1 @@
-repository for homework
+Шеметов Александр 14123 (Вариант 5)
