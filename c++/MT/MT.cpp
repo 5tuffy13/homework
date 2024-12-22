@@ -41,7 +41,7 @@ int main()
     int curr_cell = 0;
     int i = 0;
     int counter = 0;
-    while(curr_state!=99)
+    while(curr_state!=9999)
     {
         value = strip[i] - '0';
         if (compiler(curr_cell, value, curr_state, state_arr) == false)
