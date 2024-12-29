@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 
-bool compiler(int& curr_cell, int& value, int& curr_state, int state_arr[201][7]);
+bool compiler(int& curr_cell, int& value, int& curr_state, int state_arr[201][7]);//Создание функции-компилятора
 void arr_cout(char arr[1000]);
 
 int main()
