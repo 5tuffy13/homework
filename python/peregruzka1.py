@@ -1,20 +1,13 @@
-from functools import singledispatchmethod
-
 class Negator:
-    @singledispatchmethod
-    def __init__(self, arg):
-        raise NotImplementedError("Cannot negate a")
-    @__init__.register(int | float)
-    def neg(self, arg):
-        self.arg = arg * (-1)
-
-    @__init__.register(bool)
-    def neg(self, arg):
-        self.arg = not arg
-    def __str__(self):
-        return f'{self.arg}'
-        
+    @staticmethod
+    def neg(arg):
+        if isinstance(arg, (int, float)) and not isinstance(arg, bool):
+            return -arg
+        elif isinstance(arg, bool):
+            return not arg
+        else:
+            raise TypeError("Аргумент переданного типа не поддерживается")
 a=10
-b = -5
-c = True
-print(Negator(a),Negator(b),Negator(c))
+b=-5
+c=False
+print(Negator.neg(a),Negator.neg(b),Negator.neg(c))
