@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\graph.h.obj",
+            "outputs": [
+                "D:\\Program Files\\Microsoft Visual Studio\\repos\\graph\\main\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "D:\\Program Files\\Microsoft Visual Studio\\repos\\graph\\main\\x64\\Debug\\graph.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "graph.h",
+                    "source-path": "d:\\program files\\microsoft visual studio\\repos\\graph\\main\\graph.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
