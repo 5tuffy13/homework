@@ -16,3 +16,14 @@ void Node::removeNeighbour(Node* neighbour)
 		neighbour->neighbours.erase(this);
 	}
 }
+
+set<Node*> Node::getNeighbours()
+{
+	return this->neighbours;
+}
+
+ostream& operator<<(ostream& os, const Node& node)
+{
+	os << node.getName(); // Печатаем имя узла
+	return os;
+}

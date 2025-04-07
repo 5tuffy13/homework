@@ -1,0 +1,6 @@
+﻿  rational.cpp
+C:\Users\sasha\Downloads\rational.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  main.cpp
+  matrix.cpp
+  Создание кода...
+  main.vcxproj -> D:\homework\c++\systems_of_equations\x64\Debug\main.exe

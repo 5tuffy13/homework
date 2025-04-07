@@ -9,8 +9,10 @@ class Node {
 	void removeNeighbour(Node* neighbour);
 public:
 	Node(const string& aname) : name(aname) {}
+	set<Node*> getNeighbours();
 	const string& getName() const { return name; }
 	auto nb_begin() const { return neighbours.cbegin(); }
 	auto nb_end() const { return neighbours.cend(); }
 	friend class Graph;
+	friend ostream& operator<<(ostream& os, const Node& node);
 };

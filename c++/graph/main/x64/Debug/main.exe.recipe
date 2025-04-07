@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Program Files\Microsoft Visual Studio\repos\graph\x64\Debug\main.exe</FullPath>
+      <FullPath>D:\homework\c++\graph\x64\Debug\main.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
