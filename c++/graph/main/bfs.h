@@ -1,6 +1,6 @@
 #pragma once
 #include "graph.h"
-#include <gueue>
+#include <queue>
 class BFS {
 	const Graph& graph;
 public:

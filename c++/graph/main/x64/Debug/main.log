@@ -1,14 +1,7 @@
 ﻿  Проверка источников на наличие зависимостей модуля…
   bfs.cpp
-D:\homework\c++\graph\main\bfs.cpp(10,10): error C2039: "queue": не является членом "std".
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\fstream(20,1):
-       см. объявление "std"
-  
-D:\homework\c++\graph\main\bfs.cpp(10,10): error C7568: Список аргументов отсутствует после предполагаемого шаблона функции "queue".
-D:\homework\c++\graph\main\bfs.cpp(40,10): error C2039: "queue": не является членом "std".
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\fstream(20,1):
-       см. объявление "std"
-  
-D:\homework\c++\graph\main\bfs.cpp(40,10): error C7568: Список аргументов отсутствует после предполагаемого шаблона функции "queue".
+  graph.cpp
   main.cpp
+  node.cpp
   Создание кода...
+  main.vcxproj -> D:\git\homework\c++\graph\x64\Debug\main.exe
