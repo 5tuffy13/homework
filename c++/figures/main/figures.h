@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <iostream>
 using namespace std;
 
 class Point {
@@ -12,6 +13,7 @@ class Point {
 
 class Figure{
 public:
+	string figname;
 	int radius;
 	virtual int calc_area() = 0;
 	virtual int ñalc_perimetr() = 0;
@@ -22,6 +24,7 @@ class Circle :public Figure {
 
 	Point center;
 	int radius;
+	Circle(Point center, int radius);
 
 };
 
